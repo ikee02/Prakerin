@@ -22,3 +22,7 @@ Route::get('/home', function () {
     return view('home');
 });
 Route::get("/tugasprakerin", "TugasController@index");
+
+Route::get('/test', function () {
+    return view('home');
+});
