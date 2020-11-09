@@ -65,7 +65,7 @@
                             <div class="container">
                                 <div class="col-md-12 col-md-offset-0">
                                     <div class="animate-box">
-                                        <h2>Welcome to Prakerin</h2>
+                                        <h2>Welcome</h2>
                                         <p>with Unapp's high quality features</p>
 
 
