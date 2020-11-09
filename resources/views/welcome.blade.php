@@ -13,7 +13,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400" rel="stylesheet">
-        
+
         <!-- Animate.css -->
         <link rel="stylesheet" href="asset3/css/animate.css">
         <!-- Icomoon Icon Fonts-->
@@ -40,7 +40,7 @@
 
     </head>
 
-   
+
     <body>
          <div class="colorlib-loader"></div>
 
@@ -59,22 +59,22 @@
 
                 <section id="home" class="video-hero" style="height: 700px; background-image: url(images/cover_img_1.jpg);  background-size:cover; background-position: center center;background-attachment:fixed;" data-section="home">
                 <div class="overlay"></div>
-                    <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=vqqt5p0q-eU',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a> 
+                    <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=vqqt5p0q-eU',containment:'#home', showControls:false, autoPlay:true, loop:true, mute:true, startAt:0, opacity:1, quality:'default'}"></a>
                     <div class="display-t text-center">
                         <div class="display-tc">
                             <div class="container">
                                 <div class="col-md-12 col-md-offset-0">
                                     <div class="animate-box">
-                                        <h2>Welcome to My Project</h2>
+                                        <h2>Welcome to Prakerin</h2>
                                         <p>with Unapp's high quality features</p>
 
-    
+
                                             @if (Route::has('login'))
-                                               
-                                                
+
+
                                                         @auth
                                                             <a href="{{ url('/home') }}">Home</a>
-                                                    
+
                                                         @else
                                                             <a href="{{ route('login') }}" class="btn btn-primary btn-lg btn-custom">Login</a>
 
@@ -83,9 +83,9 @@
                                                         @endif
 
                                                     @endauth
-                                                
+
                                             @endif
-                                               
+
 
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@
         <div class="gototop js-top">
             <a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
         </div>
-        
+
         <!-- jQuery -->
         <script src="asset3/js/jquery.min.js"></script>
         <!-- jQuery Easing -->
@@ -120,6 +120,6 @@
         <!-- Counters -->
         <script src="asset3/js/jquery.countTo.js"></script>
         <!-- Main -->
-        <script src="asset3/js/main.js"></script>       
+        <script src="asset3/js/main.js"></script>
     </body>
 </html>
